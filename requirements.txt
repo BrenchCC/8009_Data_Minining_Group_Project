@@ -1,0 +1,11 @@
+jupyter
+polars
+scikit-learn
+lets-plot
+numpy==1.26.4
+seaborn
+category_encoders
+catboost
+lightgbm
+xgboost
+shap
