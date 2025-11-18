@@ -1,0 +1,44 @@
+<html><head><meta charset="utf-8"><title>Model Report</title></head><body><h1>Models Global Metrics</h1><pre>{
+  "GradientBoosting": {
+    "mse": 3009.4891049139824,
+    "rmse": 54.858810640716435,
+    "mae": 41.323126445638856,
+    "r2": 0.38288556885053804
+  },
+  "XGBoost": {
+    "mse": 2905.140869140625,
+    "rmse": 53.89935870806465,
+    "mae": 40.640499114990234,
+    "r2": 0.40428274869918823
+  },
+  "AdaBoost": {
+    "mse": 2522.936327295919,
+    "rmse": 50.22883959734605,
+    "mae": 38.71328431118998,
+    "r2": 0.4826562375974993
+  },
+  "LightGBM": {
+    "mse": 2879.332348950758,
+    "rmse": 53.659410628059995,
+    "mae": 39.57890468651911,
+    "r2": 0.4095750199887239
+  },
+  "CatBoost": {
+    "mse": 2892.1688475041724,
+    "rmse": 53.7788884926434,
+    "mae": 40.669209950728195,
+    "r2": 0.40694281624031803
+  },
+  "Blending": {
+    "mse": 2716.6030017727835,
+    "rmse": 52.12104183314819,
+    "mae": 39.149449222787005,
+    "r2": 0.44294368324491784
+  },
+  "Stacking": {
+    "mse": 2599.90741492272,
+    "rmse": 50.989287256469076,
+    "mae": 40.284589290074095,
+    "r2": 0.46687283805695623
+  }
+}</pre><h2>Metrics by model (RMSE chart)</h2><img src="global_rmse.png" alt="rmse"/><h3>SHAP: GradientBoosting</h3><img src="shap_GradientBoosting.png" style="max-width:800px;"/><h3>SHAP: XGBoost</h3><img src="shap_XGBoost.png" style="max-width:800px;"/><h3>SHAP: AdaBoost</h3><img src="shap_AdaBoost.png" style="max-width:800px;"/><h3>SHAP: LightGBM</h3><img src="shap_LightGBM.png" style="max-width:800px;"/><h3>SHAP: CatBoost</h3><img src="shap_CatBoost.png" style="max-width:800px;"/></body></html>
